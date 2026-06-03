@@ -294,6 +294,8 @@ bool currentSwitchState[6] = { false };                  // All OFF initially
     Blynk.setProperty ( switchVPIN[switchIndex], "onColor",     SWITCH_WIDGET_ON_COLOR ); 
   }
 
+  allSwitchesONorOFF ( LOW );  // Turn 'em all off
+
 } // end initializeBlynkWidgets
 
 
